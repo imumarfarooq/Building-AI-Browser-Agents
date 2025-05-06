@@ -1,11 +1,27 @@
 # Building-AI-Browser-Agents
 
-# 🎓 AI-Powered Learning Path Generator
+## 📚 Project Overview
 
-This project generates structured learning paths using OpenAI's GPT and live web scraping from [DeepLearning.AI](https://www.deeplearning.ai/courses). It comes in two flavors:
+This repository contains **intelligent browser agents** that generate structured AI learning paths using **OpenAI's GPT** and real-time **web scraping** from [DeepLearning.AI](https://www.deeplearning.ai/courses). Based on user input, the system extracts, structures, and classifies courses into beginner, intermediate, and advanced levels. The project consists of three main components:
+
 ---
 
+### 🔹 `simple_agent.ipynb` 
+An interactive **Gradio-based web app** where users type a topic and receive a clean Markdown roadmap of courses, grouped by level. Ideal for quick and simple use.
+
+---
+
+### 🔹 `autonomous_agent.ipynb` 
+A detailed **notebook interface** that walks through the logic step by step—web scraping, GPT-based filtering, and optional visualization. Best for research, debugging, or customization.
+
+---
+
+### 🔹 `MCTS and AgentQ.ipynb`
+An **experimental agent** using **Monte Carlo Tree Search (MCTS)** and action planning logic. Designed to explore autonomous decision-making in course discovery and sequencing (work in progress).
+
 ![Gradio Interface Demo](assets/output.gif)
+
+---
 
 ## 📦 Versions
 
@@ -33,7 +49,7 @@ This project generates structured learning paths using OpenAI's GPT and live web
 ├── autonomous_agent.ipynb       # 📒 Visual logic and experimentation
 ├── MCTS and AgentQ.ipynb        # 🔁 Planning agent framework (MCTS logic)
 ├── README.md                    # 📘 This file
-
+```
 ---
 
 ### 🖥️ Display  
