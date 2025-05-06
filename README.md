@@ -14,12 +14,14 @@ An interactive **Gradio-based web app** where users type a topic and receive a c
 ### 🔹 `autonomous_agent.ipynb` 
 A detailed **notebook interface** that walks through the logic step by step—web scraping, GPT-based filtering, and optional visualization. Best for research, debugging, or customization.
 
+![Autonomous Agent Demo](assets/autonomous_agent.gif)
+
 ---
 
 ### 🔹 `MCTS and AgentQ.ipynb`
 An **experimental agent** using **Monte Carlo Tree Search (MCTS)** and action planning logic. Designed to explore autonomous decision-making in course discovery and sequencing (work in progress).
 
-![Gradio Interface Demo](assets/output.gif)
+![MCTS Demo](assets/output.gif)
 
 ---
 
